@@ -1,0 +1,29 @@
+﻿@page "/diagramView"
+@using SharedLibrary.Components
+@using SharedLibrary.Interfaces
+@using SharedLibrary.Models
+@inject IDiagramService DS
+
+<Button OnClick="AddRect">+ Rect +</Button>
+<Button OnClick="AddCircle">+ Circle +</Button>
+
+<Divider />
+
+<!-- 使用笛卡尔坐标系 -->
+<Diagram></Diagram>
+
+@code {
+    private Task AddRect(MouseEventArgs args)
+    {
+        var rectM = new RectModel();
+        DS.Add(rectM);
+        return Task.CompletedTask;
+    }
+
+    private Task AddCircle(MouseEventArgs args)
+    {
+        var circleM = new CircleModel();
+        DS.Add(circleM);
+        return Task.CompletedTask;
+    }
+}
