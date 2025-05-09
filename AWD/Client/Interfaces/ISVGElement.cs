@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Interfaces;
+﻿namespace AWUI.Interfaces;
 
 public interface ISVGElement : IDisposable
 {

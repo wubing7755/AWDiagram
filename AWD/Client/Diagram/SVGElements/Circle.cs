@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components.Rendering;
-using SharedLibrary.Models;
+using AWUI.Models;
 
-namespace SharedLibrary.Components;
+namespace AWUI.Components;
 
 public class Circle : DraggableSvgElement<CircleModel>
 {

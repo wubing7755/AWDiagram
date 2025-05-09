@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
 using Microsoft.AspNetCore.Components.Web;
-using SharedLibrary.Enums;
-using SharedLibrary.Events;
-using SharedLibrary.Interfaces;
-using SharedLibrary.Models;
-using SharedLibrary.Utils;
+using AWUI.Enums;
+using AWUI.Events;
+using AWUI.Interfaces;
+using AWUI.Models;
+using AWUI.Utils;
 
-namespace SharedLibrary.Components;
+namespace AWUI.Components;
 
 /**
  * 画布功能：

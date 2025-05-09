@@ -1,8 +1,8 @@
 ﻿using Microsoft.JSInterop;
-using SharedLibrary.Components;
-using SharedLibrary.Enums;
+using AWUI.Components;
+using AWUI.Enums;
 
-namespace SharedLibrary.Models;
+namespace AWUI.Models;
 
 public abstract class SvgElementModel
 {

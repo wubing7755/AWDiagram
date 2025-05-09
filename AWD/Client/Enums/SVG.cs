@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Enums;
+﻿namespace AWUI.Enums;
 
 /// <summary>
 /// 对齐方式，对应 preserveAspectRatio 的前半部分：xMinYMin、xMidYMid 等

@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Models;
+﻿namespace AWUI.Models;
 
 public abstract class DraggableSvgElementModel : SvgElementModel
 {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.JSInterop;
-using SharedLibrary.Models;
+using AWUI.Models;
 
-namespace SharedLibrary.Components;
+namespace AWUI.Components;
 
 public abstract class DraggableSvgElement<TValue> : SvgElementBase<TValue> where TValue : DraggableSvgElementModel
 {

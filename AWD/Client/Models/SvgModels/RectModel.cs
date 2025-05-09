@@ -1,6 +1,6 @@
-﻿using SharedLibrary.Enums;
+﻿using AWUI.Enums;
 
-namespace SharedLibrary.Models;
+namespace AWUI.Models;
 
 public class RectModel : DraggableSvgElementModel
 {

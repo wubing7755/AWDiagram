@@ -1,10 +1,10 @@
-﻿using SharedLibrary.Components;
-using SharedLibrary.Enums;
-using SharedLibrary.Events;
-using SharedLibrary.Interfaces;
-using SharedLibrary.Models;
+﻿using AWUI.Components;
+using AWUI.Enums;
+using AWUI.Events;
+using AWUI.Interfaces;
+using AWUI.Models;
 
-namespace SharedLibrary.Services;
+namespace AWUI.Services;
 
 public class DiagramService : IDiagramService
 {

@@ -1,6 +1,6 @@
-﻿using SharedLibrary.Models;
+﻿using AWUI.Models;
 
-namespace SharedLibrary.Interfaces;
+namespace AWUI.Interfaces;
 
 public interface IDiagramService
 {

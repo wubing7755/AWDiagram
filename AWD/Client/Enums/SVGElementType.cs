@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Enums
+﻿namespace AWUI.Enums
 {
     public enum SVGElementType
     {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
 using Microsoft.JSInterop;
-using SharedLibrary.Models;
+using AWUI.Models;
 using System.Diagnostics.CodeAnalysis;
 
-namespace SharedLibrary.Components;
+namespace AWUI.Components;
 
 public abstract class SvgElementBase<TValue> : AWComponentBase where TValue : DraggableSvgElementModel
 {

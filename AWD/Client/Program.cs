@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using SharedLibrary.Interfaces;
-using SharedLibrary.Services;
+using AWUI.Interfaces;
+using AWUI.Services;
 
 namespace AWD.Client
 {

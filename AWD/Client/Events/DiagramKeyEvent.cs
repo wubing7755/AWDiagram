@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Events;
+﻿namespace AWUI.Events;
 
 public class DiagramKeyEvent
 {
